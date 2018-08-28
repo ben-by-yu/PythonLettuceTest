@@ -1,0 +1,44 @@
+1534750630130	geckodriver	INFO	geckodriver 0.21.0
+1534750630145	geckodriver	INFO	Listening on 127.0.0.1:55951
+1534750633133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.sG60UjHHF6TM"
+1534750633387	addons.xpi	WARN	Can't get modified time of C:\Program Files\Firefox Developer Edition\browser\features\fxmonitor@mozilla.org.xpi
+1534750633908	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isFile]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 227"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:227
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:852
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:866
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2386
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2727
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2535
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2116
+callProvider()@resource://gre/modules/AddonManager.jsm:206
+_startProvider()@resource://gre/modules/AddonManager.jsm:654
+startup()@resource://gre/modules/AddonManager.jsm:813
+startup()@resource://gre/modules/AddonManager.jsm:2811
+observe()@jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/omni.ja!/components/addonManager.js:66
+1534750633908	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1534750636863	addons.xpi	WARN	Can't get modified time of C:\Program Files\Firefox Developer Edition\browser\features\fxmonitor@mozilla.org.xpi
+1534750636950	Marionette	INFO	Listening on port 55959
+1534750637002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534750637044	Marionette	DEBUG	[6442450945] Frame script loaded
+1534750637145	Marionette	DEBUG	[6442450945] Frame script registered
+1534750637170	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1534750638315	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1534750638620	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/
+1534750639729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/
+1534750639817	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.google.com/
+1534750640078	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.google.com/
+1534750640079	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.google.com/
+1534750641091	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/search?source=hp&ei=fW96W9XGDcWx8wWyp56oCQ&q=master+chief&oq=master+chief&gs_l=psy-ab.12...1015.1043.0.1070.12.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..12.0.0....0.a4JJJEP-gdE
+1534750642654	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/search?source=hp&ei=fW96W9XGDcWx8wWyp56oCQ&q=master+chief&oq=master+chief&gs_l=psy-ab.12...1015.1043.0.1070.12.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..12.0.0....0.a4JJJEP-gdE
+1534750642661	Marionette	INFO	Stopped listening on port 55959
+[Parent 11272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13824, Chrome_ChildThread] WARNING: pipe error: 109:JavaScript error: jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+[Parent 11272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12888, Chrome_Chi[GPU 197
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+77
+[GPU 19640, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

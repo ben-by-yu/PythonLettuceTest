@@ -1,0 +1,23 @@
+Feature: Project Test
+
+@GoogleSearch
+Scenario: Search Master Chief In Google
+	Given I am on google web page
+	When I input master chief
+	And I click submit
+	Then I should see the search result of master chief
+
+@GoogleSearch
+Scenario: Search Halo
+	Given I am on google web page
+	When I input Halo
+	And I click submit
+	Then I should see the search result of Halo
+
+@OutlookLogin
+Scenario: Login Outlook
+	Given I am on outlook web page
+	When I input login and password
+		|login					|password	|
+		|benyu_2016@outlook.com	|@Spatial1	|
+	Then I should see inbox
